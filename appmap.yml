@@ -1,0 +1,16 @@
+name: nextjs-blog
+hooks:
+  mysql: false
+  pg: false
+  sqlite3: false
+  eval: true
+ordering:
+  chronological
+recorder:
+  process
+log:
+  level: debug
+  file: 2
+packages:
+  - path: .next
+  - path: pages
